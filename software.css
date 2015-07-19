@@ -1,0 +1,239 @@
+<style type="text/css">
+header {
+
+     display:block; /* Defining the element as a block */     
+     background:#2D2D2D; /* Hex color or image URL */
+     margin:0;
+     width: 100%;
+     padding:0;
+     width:980px; /* Same width as the Page width set in the Page inspector */    
+     position:fixed; /* Sticks the header to the top of the browser window */
+     z-index:999; /* set to a value slightly less than the navigation - see note below */
+}
+
+</style>
+
+body {
+
+  }
+
+
+
+/* Nav banner*/
+.nav-container{
+   height: 75px;
+   background-color: #CCFFFF;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+    z-index:999; /* Overrides the flexslide*/
+}
+/* Nav style*/
+.nav-container ul li{
+  list-style: none;
+}
+
+.name1{
+  margin-top: 0px;
+  float: left;
+  font-size: 250%;
+  font: bold 40px/45px Helvetica, Sans-Serif;
+  font-weight: bold;
+  word-spacing: 20px;
+  padding: 5px;
+}
+
+.name2{
+  float: left;
+  margin-left: 220px;
+  margin-top: 20px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  word-spacing: 0px;
+  font-size: 120%;
+}
+
+
+/* Nav text style*/
+
+.nav-container ul li a{
+  text-decoration: none;
+  float: right;
+  display: block;
+  padding: 2px 20px;
+  color: black;
+}
+
+.main-content ul li{
+    list-style: none;
+
+}
+
+
+
+.web_design h2 span { 
+   color: white; 
+   font: bold 32px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(175,238,308); /* fallback color */
+   background: rgba(51, 133, 255, 1.5);
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.web_design h2{
+  text-align: center;
+  margin-top: 20px;
+  font: bold 32px/45px Helvetica, Sans-Serif;
+}
+
+.image1 { 
+  float: left;
+  margin-top: 75px;
+  margin-left: 600px; 
+}
+
+.HTML_CSS h2{ 
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+}
+
+.image2 { 
+  float: right;
+  margin-top: 10px;
+  margin-right: 300px; 
+}
+
+.programming h2 span { 
+   color: white; 
+   font: bold 32px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(175,238,308); /* fallback color */
+   background: rgba(51, 133, 255, 1.5);
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.programming h2{
+  text-align: center;
+  margin-top: 360px;
+  font: bold 32px/45px Helvetica, Sans-Serif;
+}
+
+.image3 { 
+  float: left;
+  margin-top: 190px;
+  margin-left: 650px; 
+}
+
+.cpp h2{ 
+  float: left;
+  margin-left: 200px;
+  margin-top: 190px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+}
+
+.image4 { 
+  float: right;
+  margin-top: 20px;
+  margin-right: 200px; 
+}
+
+.image5 { 
+  float: left;
+  margin-top: 390px;
+  margin-left: 650px; 
+}
+
+.python h2{ 
+  float: left;
+  margin-left: 200px;
+  margin-top: 390px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+}
+
+.image6 { 
+  float: right;
+  margin-top: 60px;
+  margin-right: 300px; 
+}
+
+.image7 { 
+  float: left;
+  margin-top: 340px;
+  margin-left: 650px; 
+}
+
+.java h2{ 
+  float: left;
+  margin-left: 200px;
+  margin-top: 340px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+}
+
+.image8 { 
+  float: right;
+  margin-top: 60px;
+  margin-right: 200px; 
+}
+
+.image9 { 
+  float: left;
+  margin-top: 300px;
+  margin-left: 650px; 
+}
+
+.visual_basic h2{ 
+  float: left;
+  margin-left: 200px;
+  margin-top: 300px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+}
+
+.image10 { 
+  float: right;
+  margin-top: 60px;
+  margin-right: 200px; 
+}
+
+/*              Footer         */
+.footer-container{
+   height: 40px;
+   background-color: #3385FF;
+   position: relative;
+   width: 100%;
+   margin-top: 1660px;
+}
+.footer-container ul li{
+  list-style: none;
+}
+.footer-container ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.name3{
+  color: white;
+  float: left;
+  margin-left: 820px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  word-spacing: 10px;
+  font-size: 90%;
+}
+.name4{
+  color: white;
+  float: left;
+  margin-left: 80px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  word-spacing: 10px;
+  font-size: 90%;
+}
+.name5{
+  color: white;
+  float: left;
+  margin-left: 500px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  word-spacing: 0px;
+  font-size: 80%;
+}

@@ -1,0 +1,143 @@
+<style type="text/css">
+header {
+
+     display:block; /* Defining the element as a block */     
+     background:#2D2D2D; /* Hex color or image URL */
+     margin:0;
+     width: 100%;
+     padding:0;
+     width:980px; /* Same width as the Page width set in the Page inspector */    
+     position:fixed; /* Sticks the header to the top of the browser window */
+     z-index:999; /* set to a value slightly less than the navigation - see note below */
+}
+
+</style>
+
+body {
+
+  }
+
+/* Flexslides*/
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   height: 1000px;
+   background-image:url(../IMAGES/background.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
+/* Nav banner*/
+.nav-container{
+   height: 75px;
+   background-color: #CCFFFF;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+    z-index:999; /* Overrides the flexslide*/
+}
+/* Nav style*/
+.nav-container ul li{
+  list-style: none;
+}
+
+.name1{
+  margin-top: 0px;
+  float: left;
+  font-size: 250%;
+  font: bold 40px/45px Helvetica, Sans-Serif;
+  font-weight: bold;
+  word-spacing: 20px;
+  padding: 5px;
+}
+
+.name2{
+  float: left;
+  margin-left: 220px;
+  margin-top: 20px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  word-spacing: 0px;
+  font-size: 120%;
+}
+
+
+/* Nav text style*/
+
+.nav-container ul li a{
+  text-decoration: none;
+  float: right;
+  display: block;
+  padding: 2px 20px;
+  color: black;
+}
+
+.about ul li{
+  list-style: none;
+}
+
+.image3{
+
+    position: relative;
+  margin-left: 400px;
+}
+
+.info{
+  float: left;
+ margin-top: -150px;
+  margin-left: 700px;
+  font: bold 12px/30px Helvetica, Sans-Serif;
+  word-spacing: 0px;
+}
+
+
+
+/*              Footer         */
+.footer-container{
+   height: 40px;
+   background-color: #3385FF;
+   position: relative;
+   width: 100%;
+   margin-top: 716px;
+   bottom: 0;
+}
+.footer-container ul li{
+  list-style: none;
+}
+.footer-container ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.name3{
+  color: white;
+  float: left;
+  margin-left: 820px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  word-spacing: 10px;
+  font-size: 90%;
+
+}
+.name4{
+  color: white;
+  float: left;
+  margin-left: 80px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  word-spacing: 10px;
+  font-size: 90%;
+
+}
+.name5{
+  color: white;
+  float: left;
+  margin-left: 500px;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  word-spacing: 0px;
+  font-size: 80%;
+
+}
+
+
+
+

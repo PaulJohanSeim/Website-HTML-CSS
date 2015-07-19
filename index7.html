@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="css/flexslider7.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="index7.css" type="text/css" media="screen"/>
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
+</head>
+<body>
+
+<div id="container">
+  <header id="nav">
+      <div class="nav-container" data-animated="fadeInUp">
+          <ul class="footer-social clearfix">
+              <li class="name1"><a href="index7.html">PAUL-JOHAN SEIM</a></li>
+              <li class="name2"><a href="software.html">WEB DESIGN / PROGRAMMING</a></li>
+              <li class="name2"><a href="3D-Design.html">2D / 3D DESIGN</a></li>
+              <li class="twitter"><a href="https://twitter.com/JohanNorge"><img src="images/twitter.png" alt="Twitter" style="width:42px;height:42px;border:0"></a></li>
+              <li class="facebook"><a href="https://www.facebook.com/pauljohan.seim"><img src="images/facebook.png" alt="Facebook" style="width:42px;height:42px;border:0"></a></li>
+              <li class="linkedin"><a href="https://www.linkedin.com/pub/paul-johan-seim/59/926/830"><img src="images/linkedin.png" alt="LinkedIn" style="width:42px;height:42px;border:0"></a></li>
+              <li class="github"><a href="https://github.com/PaulJohanSeim"><img src="images/github.png" alt="GitHub" style="width:42px;height:42px;border:0"></a></li>
+          </ul>
+      </div>
+  </header>
+
+</br></br></br></br>
+
+<div id="content_area">
+ <div class="flexslider">
+  <ul class="slides">
+    <li>
+    <div class="image">
+      <img src="images/prog.png" alt=""/>
+      <h2><span>2 years experience in programming and web development<span class='spacer'></span><br /><span class='spacer'></span>C++, Python, Java, Visual Basic, HTML/CSS</span></h2>
+    </div>
+    </li>
+    <li>
+    <div class="image">
+      <img src="images/TM11.jpg" alt=""/>
+      <h2><span>2 years experience in 2D and 3D design<span class='spacer'></span><br /><span class='spacer'></span>AutoCAD, SolidWorks, SketchUP and Autodesk Inventor</span></h2>
+    </div>
+    </li>
+  </ul>
+ </div>
+</div>
+
+<!--jQuery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery||document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+<!--FlexSlider-->
+<script defer src="js/jquery.flexslider.js"></script>
+
+<script type="text/javascript">
+  $(function(){
+    SyntaxHighlighter.all();
+  });
+  $(window).load(function(){
+    $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+  });
+</script>
+
+
+
+
+<footer>
+  <div class="footer-container" data-animated="fadeInUp">
+    <ul class="footer">
+      <li class="name3"><a href="about.html">ABOUT</a></li>
+      <li class="name4"><a href="contact.html">CONTACT</a></li>
+      <li class="name5">Webmaster Paul-Johan Seim © Copyright 2015</li>
+    </ul>
+  </div>
+</footer>
+
+</div>
+
+
+</body>
+</html>
